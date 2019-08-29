@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  httpecho:
+    image: httpecho
+    build: .
+    ports:
+      - 8090:8090
