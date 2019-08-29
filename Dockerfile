@@ -13,4 +13,4 @@ RUN apk --no-cache add ca-certificates
 COPY --from=builder /go/bin/app /app
 ENTRYPOINT ./app
 LABEL Name=httpecho Version=0.0.1
-EXPOSE 8089
+EXPOSE 8090
